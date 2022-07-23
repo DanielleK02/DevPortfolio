@@ -11431,7 +11431,7 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
-section.resume-section .resume-section-content {
+section.resume-section .resume-section-content, section.figma {
   width: 100%;
   
 }
@@ -11447,7 +11447,9 @@ section.resume-section .resume-section-content {
   
 }
 
-#BPA, #SeniorPortfolio, #CourseDirectory {
+
+
+#BPA, #SeniorPortfolio, #CourseDirectory, #Home, #Ourwork1, #Ourwork2 {
   display: flex;
   flex-direction: column;
 }
@@ -11474,7 +11476,29 @@ section.resume-section .resume-section-content {
 #hockey, #guthrie{
   margin-top: 50px;
 }
+/*Figma Section*/
+.figma-images {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.figma-images > * {
+  flex: 1 1 31%;
+  
+}
+section.figma {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+
+#Home, #Ourwork1, #Ourwork2 {
+  max-width: 20rem;
+}
 
 /*
 .project-images {
