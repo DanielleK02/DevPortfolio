@@ -11444,15 +11444,13 @@ section.resume-section .resume-section-content, section.figma {
 
 .project-images > * {
   flex: 1 1 33%;
-  
 }
 
-
-
-#BPA, #SeniorPortfolio, #CourseDirectory, #Home, #Ourwork1, #Ourwork2 {
+#BPA, #SeniorPortfolio, #CourseDirectory {  
   display: flex;
   flex-direction: column;
 }
+
 #bpabutton, #seniorportfoliobutton,
  #coursedirectorybutton {
   width: 20rem;
@@ -11461,12 +11459,12 @@ section.resume-section .resume-section-content, section.figma {
   border-radius: 15px;
   background-color: #8c60e3;
 }
+
 #bpabutton a , #seniorportfoliobutton a,
  #coursedirectorybutton a  {
   color:#000;
   text-decoration: none;
  }
-
 
 #bpa, #hs-portfoilo, #coursedirectory, 
 #guthrie, #hockey, #turtle, #sunshine{
@@ -11483,22 +11481,19 @@ section.resume-section .resume-section-content, section.figma {
 }
 
 .figma-images > * {
-  flex: 1 1 31%;
-  
-}
-section.figma {
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  max-width: 75rem;
+  flex: 1 1 33%;
 }
 
 #Home, #Ourwork1, #Ourwork2 {
+  display: flex;
+  flex-direction: column;
   max-width: 20rem;
+  margin: 2.5rem;
 }
+
+
+
+
 
 /*
 .project-images {
