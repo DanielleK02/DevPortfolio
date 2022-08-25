@@ -11472,8 +11472,19 @@ section.resume-section .resume-section-content, section.figma {
 }
 
 #hockey, #guthrie{
-  margin-top: 50px;
+  margin-top: 100px;
 }
+
+/*Indesign Section*/
+#indesign {  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70rem;
+  margin-bottom: 100px;
+
+}
+
 /*Figma Section*/
 .figma-images {
   display: flex;
@@ -11491,43 +11502,6 @@ section.resume-section .resume-section-content, section.figma {
   margin: 2.5rem;
 }
 
-
-
-
-
-/*
-.project-images {
-  display: flex;
-  
-}
-
-#BPA {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#bpabutton {
-  width: 300px;
-  height: 30px; 
-}
-
-#bpa, #hs-portfoilo {
-  width: 400px;
-  
-  margin-left: 30px;
-}
-
-#SeniorPortfolio {
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-}
-
-#seniorportfoliobutton {
-  width: 300px;
-  height: 30px; 
-}*/
 
 @media (min-width: 768px) {
   section.resume-section {
