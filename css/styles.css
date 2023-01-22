@@ -11444,12 +11444,17 @@ section.resume-section .resume-section-content, section.figma {
 
 .project-images > * {
   flex: 1 1 33%;
+  
+
+}
+#bpa, #sylvania, #seniorPortfolio{  
+ border: 2px solid black;
 }
 
 #BPA, #Sylvania, #SeniorPortfolio{  
   display: flex;
   flex-direction: column; 
-  border: 2px solid black;
+
 }
 
 #bpabutton, #sylvaniabutton, #seniorportfoliobutton
