@@ -11451,7 +11451,7 @@ section.resume-section .resume-section-content, section.figma {
  border: 2px solid black;
 }
 
-#BPA, #Sylvania, #SeniorPortfolio{  
+.BPA, .Sylvania, .SeniorPortfolio{  
   display: flex;
   flex-direction: column; 
 
