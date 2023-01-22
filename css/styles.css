@@ -11449,7 +11449,7 @@ section.resume-section .resume-section-content, section.figma {
 #BPA, #Sylvania, #SeniorPortfolio{  
   display: flex;
   flex-direction: column; 
-  border: black 2px;
+  border: 2px solid black;
 }
 
 #bpabutton, #sylvaniabutton, #seniorportfoliobutton
@@ -11461,7 +11461,7 @@ section.resume-section .resume-section-content, section.figma {
   background-color: #8c60e3;
 }
 
-#bpabutton a , #sylvania a, #seniorportfoliobutton a  {
+#bpabutton a , #sylvaniabutton a, #seniorportfoliobutton a  {
   color:#000;
   text-decoration: none;
  }
