@@ -11449,7 +11449,7 @@ section.resume-section .resume-section-content, section.figma {
 #BPA, #Sylvania, #SeniorPortfolio{  
   display: flex;
   flex-direction: column; 
-  border: black;
+  border: black 2px;
 }
 
 #bpabutton, #sylvaniabutton, #seniorportfoliobutton
