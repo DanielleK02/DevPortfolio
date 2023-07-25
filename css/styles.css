@@ -11454,7 +11454,7 @@ section.resume-section .resume-section-content, section.figma {
 .BPA, .Sylvania, .SeniorPortfolio{  
   display: flex;
   flex-direction: column; 
-
+  flex-wrap: nowrap;
 }
 
 #bpabutton, #sylvaniabutton, #seniorportfoliobutton
@@ -11471,24 +11471,12 @@ section.resume-section .resume-section-content, section.figma {
   text-decoration: none;
  }
 
-#bpa, #sylvania, #hs-portfolio, 
-#guthrie, #hockey, #turtle, #sunshine{
+#bpa, #beach, #lchockey, #flower, #linesBizCard, #purpleBizCard, #dotBizCard, #squareBizCard, #sylvania, #hs-portfolio, 
+#guthrie, #hockey, #indesign, #turtle, #sunshine{
   width: 20rem;
 }
 
-#hockey, #guthrie{
-  margin-top: 100px;
-}
 
-/*Indesign Section*/
-#indesign {  
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70rem;
-  margin-bottom: 100px;
-
-}
 
 /*Figma Section*/
 .figma-images {
